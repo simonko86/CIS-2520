@@ -1,0 +1,42 @@
+*************************
+Simon Ko	0906762
+CIS2520		Assignment 4
+11/27/2016	Due: 11/28/2016
+*************************
+
+**********
+Compilation
+**********
+
+Use makefile, by compiling with "make" in the terminal
+
+**********
+Running the Program(s)
+**********
+To run the AVL program, type: ./avltree
+
+**********
+Testing
+**********
+
+avltree:
+it can read a file input, as long as each line is limited to less than 255 characters
+balance the trees either with single right, single left, double right, double left rotation
+can insert into the tree and then rebalance
+can delete a node from a tree
+can calculate the tree height and size
+
+
+**********
+Known Limitations
+**********
+
+Terminates incorrectly if stack smashing is recorded
+
+**********
+References
+**********
+
+Used code from tutorial based from my TA on insertion and deletion.
+All 4 rotations were based upon pseudocode generated from discussion with my ta
+

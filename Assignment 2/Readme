@@ -1,0 +1,40 @@
+*************************
+Simon Ko	0906762
+CIS2520		Assignment 2
+10/11/2016	Due: 10/17/2016
+*************************
+
+**********
+Compilation
+**********
+
+Use makefile, by compiling with "make" in the terminal
+
+**********
+Running the Program(s)
+**********
+To run the car maintenance program type: ./q1
+To run the postfix program type: ./q2 and the postfix expression.
+
+**********
+Testing
+**********
+
+Tested: All 7 options work in the command window.  It removes from the head of the list, back of the list.  Rejects any license that is longer than 7 characters.  If a car is added to the available list that has the same license, it is rejected. Reads and saves to a .txt file.  If a returned car has less mileage than when it was rented, the program will ask again.
+
+In postfix program, it works with multiple integers and basic mathematical symbols, addition, subtraction, multiply and divide.  It exits correctly if the input is all numbers, filling the stack past 50.  It also exits correctly if there are just operators entered, and the stack is empty.
+
+**********
+Known Limitations
+**********
+
+None for car rental program
+None for postfix program
+
+
+**********
+References
+**********
+
+I read code from CIS2500 Assignment 4 from Simon Ko (myself) to remember structs.
+I read http://csis.pace.edu/~wolf/CS122/infix-postfix.html to learn about postfix numberical expressions and to learn the algorithm behind it.

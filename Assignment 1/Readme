@@ -1,0 +1,43 @@
+*************************
+Simon Ko	0906762
+CIS2520		Assignment 1
+9/26/2016	Due: 9/26/2016
+*************************
+
+**********
+Compilation
+**********
+
+Use makefile, by compiling with "make" in the terminal
+
+**********
+Running the Program(s)
+**********
+
+Run with ./A1
+It uses scanf function to obtain values from the user.
+The first displays all combinations of "CARBON", when the user presses any character on the keyboard except 'x'.
+The second displays the Akermann function.  According to the assignment, it has to display 3 pairs, so it will ask for each pair after providing the result of the previous pair.
+The second is the Newton approximation function.  There are two functions, a recursive format, since the function calls itself, and a non-recursive, where the function uses a 'while' loop.  Each function is timed using ftime() function.  However, since the operation is so fast, each function is repeated 100,000 times.  A difference in time is displayed as well as which operation was faster.
+
+**********
+Testing
+**********
+
+Tested the limit of Akermann function before segmentation fault. The limit is shown in terminal as m=3 and n=14
+Tested Newton values of no more than 100,000 for x and a and 0.01 for e. 
+
+
+
+**********
+Known Limitations
+**********
+
+In Akermann function, any number larger than those explained provides a time out error due to lack of memory
+Depending on the size of the variables, the Newton function can provide no difference in time or a large difference in time.  To compensate, each function is repeated 100,000 times, so the real difference in time is actually 100,000 times smaller.
+
+**********
+References
+**********
+
+None

@@ -1,0 +1,42 @@
+*************************
+Simon Ko	0906762
+CIS2520		Assignment 3
+11/6/2016	Due: 11/7/2016
+*************************
+
+**********
+Compilation
+**********
+
+Use makefile, by compiling with "make" in the terminal
+
+**********
+Running the Program(s)
+**********
+To run the car maintenance program type: ./q1
+To run the postfix program type: ./q2 and the postfix expression in quotes "".
+
+**********
+Testing
+**********
+
+Q1: Tested prefix,infix,postfix,update variables and calculations on: no variables, single variables, 2 variables
+Display tree for option 1 doesn't work, although I know what to do. 
+"(1.55-1.22)", "(1.11+x1)", "(x1*x2)" are the examples I used to test each functionality.
+If the calculate option is made without a variable being declared, it is automatically set to 0.00.
+
+Q2: Ran the f.dat file.  Sorts the key into downheap order.  It adds each line, finds the key.  The child value is the read line, and the parent is the child/2.  The child and parent are min sorted, so that if the child is bigger, the elements are swapped.  This keeps on happening until the child is larger than the parent.
+
+
+**********
+Known Limitations
+**********
+
+If " " are not put before the expression, the program terminates
+
+**********
+References
+**********
+
+Used code from tutorial based from my TA to take in three numbers and insert into stack as a float.  Used the same methodology to memcpy my variables into my float stack.
+Calculation was based upon my (Simon Ko) assignment 2 part 2.
